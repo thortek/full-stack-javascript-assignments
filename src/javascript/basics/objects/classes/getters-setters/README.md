@@ -12,13 +12,14 @@ For this assignment you will be create a Person class.  This person class will u
 const _name = Symbol('name');
 const _age = Symbol('age');
 ```
-Note: The Symbol data type is used as the key for an object property when the property is intended to be private, for the internal use of a class or an object type.
-4. Create a class called Person and be sure to export the class.
-5. Add a constructor method to the Person class that will take a name and age as arguments.  Use the new "default function parameters" capability in JavaScript to set the age parameter with a default value of 0.
-6. Create a getter for the Person class that will return the name property.
-7. Create a getter for the Person class that will return the age property.
-8. Create a setter for the age property that will accept a number as an argument.
-9. Use conditional logic to set the Person's age to 0 if a negative number was provided as the argument and to set the age to 120 if a value was provided that is greater than 120.
+>  Note: The Symbol data type is used as the key for an object property when the property is intended to be private, for the internal use of a class or an object type.
+
+2. Create a class called Person and be sure to export the class.
+3. Add a constructor method to the Person class that will take a name and age as arguments.  Use the new "default function parameters" capability in JavaScript to set the age parameter with a default value of 0.
+5. Create a getter for the Person class that will return the name property.
+6. Create a getter for the Person class that will return the age property.
+7. Create a setter for the age property that will accept a number as an argument.
+8. Use conditional logic to set the Person's age to 0 if a negative number was provided as the argument and to set the age to 120 if a value was provided that is greater than 120.
 
 
 ### Observations
